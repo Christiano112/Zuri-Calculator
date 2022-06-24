@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christiano's Calculator</title>
+</head>
+<body>
+    
+
+    <script>
+        //  The calculator should be able to perform basic operations like Addition, Subtraction, Multiplication, & Division
+
+        alert("Welcome");
+        let firstNumber = prompt("Enter your first number");
+        let secondNumber = prompt("Enter your second number")
+        // alert(`You entered ${firstNumber} and ${secondNumber}`);
+        let myOperand = prompt(`
+        What operation would you like to carry out? \n
+        For Addition enter + \n
+        For Subtraction enter - \n
+        For Multiplication enter * \n
+        For Division enter /
+        `) 
+        let myResult = firstNumber + myOperand + secondNumber;
+        alert(`The result is ${myResult}`);
+    </script>
+</body>
+</html>
